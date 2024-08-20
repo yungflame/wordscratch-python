@@ -9,10 +9,10 @@ from points import get_total_points
 class BoggleGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Sharon's Game")
+        self.root.title("Wordscratch Game")
         self.points = 0
         self.used_words = set()
-        self.king_word = 'Sharon'
+        self.king_word = 'Wordscratch'
         self.studied_words = set()
 
         # Initialize board
